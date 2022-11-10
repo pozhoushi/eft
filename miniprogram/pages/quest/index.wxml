@@ -1,0 +1,12 @@
+<!-- index.wxml -->
+<view class="quest">
+  <view class="merchants" >
+    <view class="merchant" wx:for="{{merchants}}" wx:key="*this">
+      <view class="avatar-box">
+        <image class="avatar" src="{{item.avatar}}" />
+        <view class="amount">{{item.questAmount}}</view>
+      </view>
+      <view class="name">{{item.name}}</view>
+    </view>
+  </view>
+</view>

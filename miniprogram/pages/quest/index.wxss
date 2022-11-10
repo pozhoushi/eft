@@ -1,0 +1,64 @@
+/**index.wxss**/
+.quest {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: #000000;
+}
+
+.quest .merchants{
+  margin: 0 30rpx;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.quest .merchants .merchant{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 100rpx;
+  flex: 25%;
+}
+
+.quest .merchants .merchant:nth-child(n + 5){
+  margin-top: 40rpx;
+}
+
+
+.quest .merchant .avatar{
+  width: 100rpx;
+  height: 100rpx;
+}
+.quest .merchant .name{
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 24rpx;
+  margin-top: 12rpx;
+}
+
+.quest .merchant .avatar-box{
+  position: relative;
+}
+
+.quest .merchant .amount{
+  position: absolute;
+  top: -14rpx;
+  right: -14rpx;
+  
+  display: flex;align-items: center;justify-content: center;
+  
+  height: 28rpx;
+  width: 28rpx;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+
+  font-family: fantasy;
+  font-size: 18rpx;
+  color: rgba(0, 255, 0, 0.8);
+}
+
+
