@@ -1,5 +1,5 @@
 /**app.wxss**/
-.container {
+/* .container {
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -7,4 +7,39 @@
   justify-content: space-between;
   padding: 200rpx 0;
   box-sizing: border-box;
-} 
+}  */
+
+page{
+  position: relative;
+}
+
+back-home{
+  height: 80rpx;
+  width: 80rpx;
+  border-radius: 50%;
+  background-color: #fff;
+
+  position: absolute;
+  bottom: 140rpx;
+  right: 40rpx;
+  
+  display: flex;align-items: center;justify-content: center;
+
+  opacity: 0.8;
+}
+
+
+share{
+  height: 80rpx;
+  width: 80rpx;
+  border-radius: 50%;
+  background-color: #fff;
+
+  position: absolute;
+  bottom: 40rpx;
+  right: 40rpx;
+  
+  display: flex;align-items: center;justify-content: center;
+
+  opacity: 0.8;
+}

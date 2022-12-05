@@ -2,3 +2,6 @@
 <view id="app">
   <view class bindtap="jump"> QUEST </view>
 </view>
+<view class="ROOT_PORTAL">
+  HOME
+</view>

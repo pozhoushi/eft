@@ -1,4 +1,6 @@
 {
-  "usingComponents": {},
+  "usingComponents": {
+    "back-home": "../../components/backHome"
+  },
   "navigationBarTitleText": "eft"
 }

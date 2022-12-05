@@ -1,0 +1,28 @@
+<!--index.wxml-->
+<view class="cpn-quest-list">
+  <view class="a-quest" wx:for="{{questListData}}" wx:for-item="quest">
+    <view class="name">{{quest.name}}</view>
+    <view class="location" wx:if="{{quest.location}}">{{location}}</view>
+    <view class="objectives"> objectives : 
+      <view class="objective" wx:for="{{quest.objectives}}" wx:for-item="objective">{{index + 1 + '. ' + objective}}</view>
+    </view>
+    <view class="prerequisites" wx:if="{{quest.prerequisites}}"> prerequisites : 
+      <view class="prerequisite" wx:for="{{quest.prerequisites}}" wx:for-item="prerequisite">{{index+1 + '. ' + prerequisite}}</view>
+    </view>
+    <view class="rewards"> rewards :
+      <view class="rewards-exp">exp : {{quest.rewards.exp}}</view>
+      <view class="rewards-reps">rep : 
+        <view class="rewards-rep" wx:for="{{quest.rewards.reps}}" wx:for-item="rep"> {{rep.merchant}} {{rep.value}} </view>
+      </view>
+      <view class="rewards-unlocks"> unlocks:
+        <view class="unlock" wx:for="{{quest.rewards.unlocks}}" wx:for-item="unlock"> 
+          <view>{{index + 1 + '. '}}{{ unlock.merchant }} {{ 'lv' + unlock.repLevel }} {{ unlock.method }} {{ unlock.item }}</view>
+        </view>
+      </view>
+      <view wx:if="{{rewards.skills}}" class="rewards-skills" wx:for="{{quest.rewards.skills}}" wx:for-item="skill">{{ skill }}</view>
+    </view>
+    <view class="tips"> tips:
+      <view class="tip" wx:for="{{quest.tips}}" wx:for-item="tip"> {{index + 1 + '. ' + tip}} </view>
+    </view>
+  </view>
+</view>

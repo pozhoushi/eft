@@ -1,0 +1,4 @@
+<!--index.wxml-->
+<view class="cpn-arrow-container">
+  <view class="cpn-arrow {{direction === 'right' ? 'left right' : direction}}"></view>
+</view>

@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "quest-list": "../../components/questList",
+    "back-home": "../../components/backHome",
+    "share": "../../components/share",
+    "arrow": "../../components/arrow"
+  },
+  "navigationBarTitleText": "prapor"
+}

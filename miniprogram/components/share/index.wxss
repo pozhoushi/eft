@@ -1,0 +1,4 @@
+/**index.wxss**/
+.cpn-share{
+  font-size: 16rpx;
+}

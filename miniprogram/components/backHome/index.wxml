@@ -1,0 +1,4 @@
+<!--index.wxml-->
+<view class="cpn-back-home">
+  HOME
+</view>

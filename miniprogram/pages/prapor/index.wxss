@@ -1,0 +1,20 @@
+/**index.wxss**/
+.prapor{
+  background-color: #000;
+  color: #fff;
+  min-width: 100vw;
+  /* min-height: 100vh; */
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.prapor > view{
+  width: calc(100vw / 3);
+  height: calc(100vw / 3);
+  background-color: #222;
+  outline: 1px solid darkred;
+
+
+  display: flex;align-items: center;justify-content: center;
+}

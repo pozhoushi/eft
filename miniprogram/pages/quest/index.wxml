@@ -2,7 +2,7 @@
 <view class="quest">
   <view class="merchants" >
     <view class="merchant" wx:for="{{merchants}}" wx:key="*this">
-      <view class="avatar-box">
+      <view class="avatar-box" bindtap="hop">
         <image class="avatar" src="{{item.avatar}}" />
         <view class="amount">{{item.questAmount}}</view>
       </view>

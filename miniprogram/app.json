@@ -2,6 +2,7 @@
   "pages": [
     "pages/index/index",
     "pages/quest/index",
+    "pages/prapor/index",
     "pages/logs/logs"
   ],
   "window": {

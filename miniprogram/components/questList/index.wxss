@@ -1,0 +1,13 @@
+/**index.wxss**/
+.cpn-quest-list{
+  background-color: #000;
+  color: #fff;
+}
+
+.a-quest{}
+.a-quest .name{
+  font-size: 56rpx;
+  font-weight: bold;
+}
+
+
