@@ -1,0 +1,15 @@
+<!-- index.wxml -->
+<view class="prapor">
+  <!-- <quest-list quest-list-data="{{questListData}}"/> -->
+
+  <view><arrow direction="{{'left'}}" /></view> <view class="q">Debut</view> <view><arrow direction="{{'right'}}" /></view>
+
+  <view><arrow direction="{{'down'}}" /></view> <view><arrow direction="{{'down'}}" /></view> <view><arrow direction="{{'down'}}" /></view>
+
+
+  <!-- <view class="s"> <arrow direction="{{'left'}}" /> </view>
+  <view class="s"> <arrow direction="{{'right'}}" /> </view>
+  <view class="s"> <arrow direction="{{'down'}}" /> </view> -->
+</view>
+<back-home />
+<share />
